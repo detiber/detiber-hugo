@@ -1,0 +1,24 @@
+languageCode = "en-us"
+title = "Jason DeTiberus"
+baseurl = "http://detiber.github.io/"
+theme = "hugo-theme-nix"
+
+[params]
+  GithubID = "detiber"
+  TwitterID = "detiber"
+  LinkedInID = "detiber"
+  GoogleplusID = "+JasonDeTiberus"
+  FacebookID = "detiber"
+  Name = "Jason DeTiberus"
+  HeaderUsername = "detiber"
+  HeaderHostname = "detiber.github.io"
+  Email = "detiber@gmail.com"
+  About = "Yada Yada"
+  ProfilePicture = "https://secure.gravatar.com/avatar/811cd04d3526babe780ddb2a474116d7?s=200"
+#  GoogleAnalytics = "your_google_analytics_id"
+
+#[menu]
+#  [[menu.header]]
+#    name = "posts"
+#    weight = 0
+#    url = "/posts"
