@@ -1,24 +1,92 @@
 languageCode = "en-us"
 title = "Jason DeTiberus"
 baseurl = "http://detiber.github.io/"
-theme = "hugo-theme-nix"
+theme = "hugo-smpl-theme"
+
+# Enter your tracking code to enable Google analytics
+#googleAnalytics = "UA-XXXXXXXX-1"
+
+#[params]
+#  GithubID = "detiber"
+#  TwitterID = "detiber"
+#  LinkedInID = "detiber"
+#  GoogleplusID = "+JasonDeTiberus"
+#  FacebookID = "detiber"
+#  Name = "Jason DeTiberus"
+#  HeaderUsername = "detiber"
+#  HeaderHostname = "detiber.github.io"
+#  Email = "detiber@gmail.com"
+#  About = "Yada Yada"
+#  ProfilePicture = "https://secure.gravatar.com/avatar/811cd04d3526babe780ddb2a474116d7?s=200"
+##  GoogleAnalytics = "your_google_analytics_id"
 
 [params]
-  GithubID = "detiber"
-  TwitterID = "detiber"
-  LinkedInID = "detiber"
-  GoogleplusID = "+JasonDeTiberus"
-  FacebookID = "detiber"
-  Name = "Jason DeTiberus"
-  HeaderUsername = "detiber"
-  HeaderHostname = "detiber.github.io"
-  Email = "detiber@gmail.com"
-  About = "Yada Yada"
-  ProfilePicture = "https://secure.gravatar.com/avatar/811cd04d3526babe780ddb2a474116d7?s=200"
-#  GoogleAnalytics = "your_google_analytics_id"
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
 
-#[menu]
-#  [[menu.header]]
-#    name = "posts"
-#    weight = 0
-#    url = "/posts"
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Jason DeTiberus"
+  description = "Yada Yada"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "https://secure.gravatar.com/avatar/811cd04d3526babe780ddb2a474116d7?s=200"
+    alt = "Jason DeTiberus"
+#    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Jason DeTiberus"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Something, something, witty anecdote."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "GitHub"
+    icon = "fa-github"
+    link = "https://github.com/detiber"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "http://twitter.com/detiber"
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "http://linkedin.com/in/detiber"
+
+  [[params.social]]
+    title = "Google+"
+    icon = "fa-google-plus"
+    link = "https://plus.google.com/+JasonDeTiberus/about"
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://facebook.com/detiber"
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:detiber@gmail.com"
