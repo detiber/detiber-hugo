@@ -87,6 +87,11 @@ theme = "hugo-smpl-theme"
     link = "https://facebook.com/detiber"
 
   [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
+    link = "https://blog.jason.detiberus.net"
+
+  [[params.social]]
     title = "Email Me!"
     icon = "fa-envelope"
     link = "mailto:detiber@gmail.com"
